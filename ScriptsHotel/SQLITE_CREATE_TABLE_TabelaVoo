@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS TabelaHotel(
+IDTabelaVoo INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+origem TEXT NOT NULL,
+destino TEXT NOT NULL,
+dataPartida TEXT NOT NULL,
+dataRetorno TEXT NOT NULL,
+preco REAL NOT NULL,
+companhia TEXT NOT NULL
+);
+
+INSERT INTO TabelaVoo(origem, destino, dataPartida, dataRetorno, preco, companhia) VALUES 
+('São Paulo', 'Belo Horizonte', '23/04 às 16 horas', '26/04 às 17 horas', 1000.00, 'Airline'),
+('São Joaquin de Bicas', 'New York City', '20/04 às 15 horas', '30/04 às 23 horas', 3000.00, 'Lufthansa'),
+('Esmeeraldas', 'São Paulo', '22/04 às 14 horas', '27/04 às 16 horas', 1000.00, 'Lufthansa'),
+('Veneza', 'São Paulo', '22/04 às 16 horas', '27/04 às 12 horas', 5000.00, 'Airline'),
+('New York City', 'Rio de Janeiro', '23/04 às 12 horas', '25/04 às 19 horas', 3500.00, 'Airline'),
+('Londres', 'Rio de Janeiro', '21/04 às 11 horas', '25/04 às 18 horas', 4500.00, 'Airline'),
+('Londres', 'Paris', '20/04 às 10 horas', '10/05 às 17 horas', 2000.00, 'Airline'),
+('Rio de Janeiro', 'Paris', '25/04 às 09 horas', '05/05 às 21 horas', 6000.00, 'Lufthansa'),
+('Formigas', 'Londres', '02/05 às 08 horas', '07/05 às 20 horas', 5200.00, 'Airline'),
+('São Paulo', 'Paris', '10/05 às 05 horas', '11/05 às 22 horas', 4350.00, 'Airline');

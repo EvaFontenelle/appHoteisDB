@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS TabelaHotel(
+IDTabelaOferta INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+descricao TEXT NOT NULL,
+desconto REAL NOT NULL,
+dataInicio TEXT NOT NULL,
+dataFim TEXT NOT NULL,
+);
+
+INSERT INTO TabelaOferta(descricao, desconto, dataInicio, dataFim) VALUES
+('Venha ao Paraíso da Terra, é inesquecível!', 0.25, '23/04', '26/04'),
+('The palace opens its doors to you, come in!', 0.30, '20/04', '30/04'),
+('Esta é sua chance de desfrutar da beleza natural em seu primor, não perca!', 0.12, '22/04', '27/04'),
+('É sua vez de brilhar, conheça nosso hotel que se destaca dos demais!', 0.25, '22/04', '27/04'),
+('O luar te convida sutilmente, atenda a seu chamado...', 0.50, '23/04', '25/04'),
+('Não perca a chance de viver o Sol em seu esplendor, aproveite!', 0.12, '21/04', '25/04'),
+('Vivez comme des rois, c`est magique!', 0.10, '20/04', '10/05'),
+('Sentez le parfum divin, découvrez la splendeur d`une belle fleur !', 0.15, '25/04', '05/05'),
+('Long live luxury, glory, and power!', 0.25, '02/05', '07/05'),
+('Vivez le meilleur moment, la plus belle des histoires.', 0.20, '10/05', '11/05');

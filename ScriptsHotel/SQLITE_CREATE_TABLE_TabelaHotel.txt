@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS TabelaHotel(
+IDTabelaHotel INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+nome TEXT NOT NULL,
+cidade TEXT NOT NULL,
+estado TEXT NOT NULL,
+pais TEXT NOT NULL,
+diaria REAL NOT NULL
+);
+
+INSERT INTO TabelaHotel(nome, cidade, estado, pais, diaria) VALUES 
+('Paraíso da Terra', 'Belo Horizonte', 'Minas Gerais', 'Brasil', 350,00),
+('Aurora Palace', 'New York City', 'New York', 'Estados Unidos', 15,000.00),
+('Jardim Imperial', 'São Paulo', 'São Paulo', 'Brasil', 2,000.00),
+('Pérola do Vale', 'São Paulo', 'São Paulo', 'Brasil', 3,000.00),
+('Luar de Safira', 'Rio de Janeiro', 'Rio de Janeiro', 'Brasil', 500.00),
+('Sol da Nobreza', 'Rio de Janeiro', 'Rio de Janeiro', 'Brasil', 800.00),
+('Château Lumière', 'Paris', 'Île-de-France', 'França', 20,000.00),
+('Fleur de Lys', 'Paris', 'Île-de-France', 'França', 12,000.00),
+('Maison Royale', 'Londres', 'Inglaterra', 'Reino Unido', 10,000.00),
+('Parlais Mermonia', 'Paris', 'Île-de-France', 'França', 50,000.00);

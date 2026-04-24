@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS TabelaCliente(
+IDTabelaCliente INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+nome TEXT NOT NULL,
+email TEXT NOT NULL,
+telefone TEXT NOT NULL,
+cpf TEXT NOT NULL
+);
+
+INSERT INTO TabelaCliente(nome, email, telefone, cpf) VALUES 
+('Ana Júlia', 'aninhaju123@gmail.com', '31-99009-1231', '123.456.789-10'),
+('Bernardo', 'bernardosaldanha@gmail.com', '31-99247-1531', '223.446.789-19'),
+('Daniela', 'danielasouzadosantos@gmail.com', '31-93464-6358', '323.267.257-37'),
+('Gabriel', 'bielzingameplays@gmail.com', '31-99009-1231', '298.436.109-32'),
+('Giovana', 'giovanaoliveira@gmail.com', '31-9628-3857', '383.468.387-10'),
+('Laura', 'laurafonseca76@gmail.com', '31-94750-2568', '173.325.119-89'),
+('Mateus', 'mateushenriquesilva@gmail.com', '31-92013-0876', '480.006.712-51'),
+('Otávio', 'otaviopachecolima@gmail.com', '31-92357-2743', '556.201.232-04'),
+('Rafaela', 'rafaeladeandrade42@gmail.com', '31-92143-1211', '901.229.133-99'),
+('Verônica', 'veronicaferreira639@gmail.com', '31-92049-3141', '652.839.040-67');
